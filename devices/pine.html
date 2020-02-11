@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/mdui/0.4.3/css/mdui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?67319535f71174561c4472de9a73b0b7";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+      <meta name="google-site-verification" content="1eNyA6u9gVIE5LzXP0FGw3I6yT9JnVNt0DVo4ujE-8Q" />
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153213840-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-153213840-1');
+      </script>
+    <style>
+            li a {
+                text-decoration: none;
+                color: blue;
+            }
+    
+            td a {
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+    <title>Redmi 7A(pine)官方ROM合集 -- MIUI官方ROM仓库</title>
+</head>
+
+<body class="mdui-bottom-nav-fixed">
+    <div class="mdui-toolbar mdui-color-deep-orange-accent">
+        <button class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#main-drawer'}" mdui-drawer-close><i
+                class="mdui-icon material-icons">menu</i></button>
+        <span class="mdui-typo-headline">MIUI官方ROM仓库</span>
+        <div class="mdui-toolbar-spacer"></div>
+        <div class="mdui-drawer mdui-drawer-close" id="main-drawer">
+            <ul class="mdui-list" mdui-collapse="{accordion: true}">
+                <li class="mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+                    <div class="mdui-list-item-content"><a href="../index.html">回到首页</a></div>
+                </li>
+
+                <li class="mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons">adb</i>
+                    <div class="mdui-list-item-content"><a href="../tutorial.html">刷机教程</a></div>
+                </li>
+
+                <li class="mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons">developer_mode</i>
+                    <div class="mdui-list-item-content"><a href="../weekly/index.html">查看日志</a></div>
+                </li>
+
+                <li class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">devices</i>
+                        <div class="mdui-list-item-content"><a href="index.html">机型列表</a></div>
+                </li>
+                <li class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">computer</i>
+                        <div class="mdui-list-item-content"><a href="../tools.html">刷机工具</a></div>
+                </li>
+                <li class="mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons">favorite</i>
+                    <div class="mdui-list-item-content"><a href="../thanks.html">衷心感谢</a></div>
+                </li>
+                <li class="mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons">person</i>
+                    <div class="mdui-list-item-content"><a href="../aboutme.html">站点日志</a></div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="mdui-panel mdui-panel-gapless">
+        <div class="mdui-panel-item mdui-panel-item-open">
+            <div class="mdui-panel-item-header mdui-text-color-red" style="font-size: 25px;">注：</div>
+            <div class="mdui-panel-item-body">
+                <ol>
+                    <li>机型：Redmi 7A 代号：pine</li>
+                    <li>此次更新项目：V11.0.2.0.PCMCNXM、V11.0.2.0.PCMINXM</li>
+                    <li>特别感谢：<a href="https://www.miui.com/space-uid-2239595900.html">@浅……时光</a></li>
+                    <li>特别感谢：<a href="https://xiaomifirmwareupdater.com/">Xiaomi Firmware Updater </a>网站</li>
+                    <li>本站点将不收录稳定版灰度内测和开发版内测以及体验版</li>
+                    <li>所有线刷都以解锁Bootloader为前提，并且解锁Bootloader时会清除数据，请提前做好备份工作，<a href="http://www.miui.com/unlock">传送门</a></li>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- 由此向下区域为ROM的正式内容 -->
+
+    <div><br></div>
+    <div class="mdui-tab mdui-tab-full-width mdui-color-white-accent" mdui-tab>
+        <a href="#CN_STABLE" class="mdui-ripple">国内稳定版</a>
+        <a href="#GB_STABLE" class="mdui-ripple">国际稳定版</a>
+        <a href="#IN_STABLE" class="mdui-ripple">印度稳定版</a>
+        <a href="#EEA_STABLE" class="mdui-ripple">EEA稳定版</a>
+        <a href="#RU_STABLE" class="mdui-ripple">俄罗斯稳定版</a>
+    </div>
+    <div id="CN_STABLE" class="mdui-p-a-2">
+        <div class="mdui-container-fluid">
+            <div class="mdui-table-fluid">
+                <table class="mdui-table">
+                    <thead>
+                        <tr>
+                            <th class="mdui-text-color-red">国内稳定版</th>
+                            <th>MIUI版本</th>
+                            <th>Android版本</th>
+                            <th>卡刷包</th>
+                            <th>线刷包</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="mdui-hidden">
+                            <td>10</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>9</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>8</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>V11.0.2.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.2.0.PCMCNXM/miui_PINE_V11.0.2.0.PCMCNXM_fb68c600ed_9.0.zip">miui_PINE_V11.0.2.0.PCMCNXM_fb68c600ed_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.2.0.PCMCNXM/pine_images_V11.0.2.0.PCMCNXM_20191125.0000.00_9.0_cn_0537a3e50b.tgz">pine_images_V11.0.2.0.PCMCNXM_20191125.0000.00_9.0_cn_0537a3e50b.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>V11.0.1.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.1.0.PCMCNXM/miui_PINE_V11.0.1.0.PCMCNXM_94700e00ff_9.0.zip">miui_PINE_V11.0.1.0.PCMCNXM_94700e00ff_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.1.0.PCMCNXM/pine_images_V11.0.1.0.PCMCNXM_20191024.0000.00_9.0_cn_8d2a7ba323.tgz">pine_images_V11.0.1.0.PCMCNXM_20191024.0000.00_9.0_cn_8d2a7ba323.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>V10.2.14.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.14.0.PCMCNXM/miui_PINE_V10.2.14.0.PCMCNXM_fa762a99f7_9.0.zip">miui_PINE_V10.2.14.0.PCMCNXM_fa762a99f7_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.14.0.PCMCNXM/pine_images_V10.2.14.0.PCMCNXM_20190924.0000.00_9.0_cn_6546a57d02.tgz">pine_images_V10.2.14.0.PCMCNXM_20190924.0000.00_9.0_cn_6546a57d02.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>V10.2.10.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.10.0.PCMCNXM/miui_PINE_V10.2.10.0.PCMCNXM_1596600083_9.0.zip">miui_PINE_V10.2.10.0.PCMCNXM_1596600083_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.10.0.PCMCNXM/pine_images_V10.2.10.0.PCMCNXM_20190824.0000.00_9.0_cn_e6614339ab.tgz">pine_images_V10.2.10.0.PCMCNXM_20190824.0000.00_9.0_cn_e6614339ab.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>V10.2.9.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.9.0.PCMCNXM/miui_PINE_V10.2.9.0.PCMCNXM_f312036217_9.0.zip">miui_PINE_V10.2.9.0.PCMCNXM_f312036217_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.9.0.PCMCNXM/pine_images_V10.2.9.0.PCMCNXM_20190807.0000.00_9.0_cn_1d3213dbe0.tgz">pine_images_V10.2.9.0.PCMCNXM_20190807.0000.00_9.0_cn_1d3213dbe0.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>V10.2.8.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.8.0.PCMCNXM/miui_PINE_V10.2.8.0.PCMCNXM_28ad8a5d9a_9.0.zip">miui_PINE_V10.2.8.0.PCMCNXM_28ad8a5d9a_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.8.0.PCMCNXM/pine_images_V10.2.8.0.PCMCNXM_20190702.0000.00_9.0_cn_d3cab35f12.tgz">pine_images_V10.2.8.0.PCMCNXM_20190702.0000.00_9.0_cn_d3cab35f12.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>V10.2.6.0.PCMCNXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.6.0.PCMCNXM/miui_PINE_V10.2.6.0.PCMCNXM_accd34296f_9.0.zip">miui_PINE_V10.2.6.0.PCMCNXM_accd34296f_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.6.0.PCMCNXM/pine_images_V10.2.6.0.PCMCNXM_20190605.0000.00_9.0_cn_57262b48bd.tgz">pine_images_V10.2.6.0.PCMCNXM_20190605.0000.00_9.0_cn_57262b48bd.tgz</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="GB_STABLE" class="mdui-p-a-2">
+        <div class="mdui-container-fluid">
+            <div class="mdui-table-fluid">
+                <table class="mdui-table">
+                    <thead>
+                        <tr>
+                            <th class="mdui-text-color-red">国际稳定版</th>
+                            <th>MIUI版本</th>
+                            <th>Android版本</th>
+                            <th>卡刷包</th>
+                            <th>线刷包</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="mdui-hidden">
+                            <td>10</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>9</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>8</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>7</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>6</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>5</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>V11.0.5.0.PCMMIXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.5.0.PCMMIXM/miui_PINEGlobal_V11.0.5.0.PCMMIXM_d87548dd5a_9.0.zip">miui_PINEGlobal_V11.0.5.0.PCMMIXM_d87548dd5a_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.5.0.PCMMIXM/pine_global_images_V11.0.5.0.PCMMIXM_20191126.0000.00_9.0_global_da6affdfe7.tgz">pine_global_images_V11.0.5.0.PCMMIXM_20191126.0000.00_9.0_global_da6affdfe7.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>V11.0.4.0.PCMMIXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.4.0.PCMMIXM/miui_PINEGlobal_V11.0.4.0.PCMMIXM_674ed79f0b_9.0.zip">miui_PINEGlobal_V11.0.4.0.PCMMIXM_674ed79f0b_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.4.0.PCMMIXM/pine_global_images_V11.0.4.0.PCMMIXM_20191029.0000.00_9.0_global_cd3e867fe7.tgz">pine_global_images_V11.0.4.0.PCMMIXM_20191029.0000.00_9.0_global_cd3e867fe7.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>V10.2.5.0.PCMMIXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.5.0.PCMMIXM/miui_PINEGlobal_V10.2.5.0.PCMMIXM_7380681456_9.0.zip">miui_PINEGlobal_V10.2.5.0.PCMMIXM_7380681456_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.5.0.PCMMIXM/pine_global_images_V10.2.5.0.PCMMIXM_20190805.0000.00_9.0_global_efb78ff9c3.tgz">pine_global_images_V10.2.5.0.PCMMIXM_20190805.0000.00_9.0_global_efb78ff9c3.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>V10.2.4.0.PCMMIXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMMIXM/miui_PINEGlobal_V10.2.4.0.PCMMIXM_80b9b819b4_9.0.zip">miui_PINEGlobal_V10.2.4.0.PCMMIXM_80b9b819b4_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMMIXM/pine_global_images_V10.2.4.0.PCMMIXM_20190702.0000.00_9.0_global_15dab6b5a8.tgz">pine_global_images_V10.2.4.0.PCMMIXM_20190702.0000.00_9.0_global_15dab6b5a8.tgz</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="IN_STABLE" class="mdui-p-a-2">
+        <div class="mdui-container-fluid">
+            <div class="mdui-table-fluid">
+                <table class="mdui-table">
+                    <thead>
+                        <tr>
+                            <th class="mdui-text-color-red">印度稳定版</th>
+                            <th>MIUI版本</th>
+                            <th>Android版本</th>
+                            <th>卡刷包</th>
+                            <th>线刷包</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="mdui-hidden">
+                            <td>10</td>
+                            <td>TEXT_HERE</td>
+                            <td>8.1 Oreo</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>9</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>8</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>7</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>6</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>V11.0.2.0.PCMINXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.2.0.PCMINXM/miui_PINEINGlobal_V11.0.2.0.PCMINXM_bc576fd578_9.0.zip">miui_PINEINGlobal_V11.0.2.0.PCMINXM_bc576fd578_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.2.0.PCMINXM/pine_in_global_images_V11.0.2.0.PCMINXM_20191224.0000.00_9.0_in_fb007b1223.tgz">pine_in_global_images_V11.0.2.0.PCMINXM_20191224.0000.00_9.0_in_fb007b1223.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>V10.2.10.0.PCMINXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.10.0.PCMINXM/miui_PINEINGlobal_V10.2.10.0.PCMINXM_5df89bb6dd_9.0.zip">miui_PINEINGlobal_V10.2.10.0.PCMINXM_5df89bb6dd_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.10.0.PCMINXM/pine_in_global_images_V10.2.10.0.PCMINXM_20190925.0000.00_9.0_in_a9e2b0e5cf.tgz">pine_in_global_images_V10.2.10.0.PCMINXM_20190925.0000.00_9.0_in_a9e2b0e5cf.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>V10.2.7.0.PCMINXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.7.0.PCMINXM/miui_PINEINGlobal_V10.2.7.0.PCMINXM_1344cd0915_9.0.zip">miui_PINEINGlobal_V10.2.7.0.PCMINXM_1344cd0915_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.7.0.PCMINXM/pine_in_global_images_V10.2.7.0.PCMINXM_20190809.0000.00_9.0_in_a18c588423.tgz">pine_in_global_images_V10.2.7.0.PCMINXM_20190809.0000.00_9.0_in_a18c588423.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>V10.2.6.0.PCMINXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.6.0.PCMINXM/miui_PINEINGlobal_V10.2.6.0.PCMINXM_ea58a33c69_9.0.zip">miui_PINEINGlobal_V10.2.6.0.PCMINXM_ea58a33c69_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.6.0.PCMINXM/pine_in_global_images_V10.2.6.0.PCMINXM_20190725.0000.00_9.0_in_6277c05b4b.tgz">pine_in_global_images_V10.2.6.0.PCMINXM_20190725.0000.00_9.0_in_6277c05b4b.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>V10.2.4.0.PCMINXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMINXM/miui_PINEINGlobal_V10.2.4.0.PCMINXM_28d86be311_9.0.zip">miui_PINEINGlobal_V10.2.4.0.PCMINXM_28d86be311_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMINXM/pine_in_global_images_V10.2.4.0.PCMINXM_20190629.0000.00_9.0_in_02fc7a3638.tgz">pine_in_global_images_V10.2.4.0.PCMINXM_20190629.0000.00_9.0_in_02fc7a3638.tgz</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <div id="EEA_STABLE" class="mdui-p-a-2">
+        <div class="mdui-container-fluid">
+            <div class="mdui-table-fluid">
+                <table class="mdui-table">
+                    <thead>
+                        <tr>
+                            <th class="mdui-text-color-red">EEA稳定版</th>
+                            <th>MIUI版本</th>
+                            <th>Android版本</th>
+                            <th>卡刷包</th>
+                            <th>线刷包</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="mdui-hidden">
+                            <td>10</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>9</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>8</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>7</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>V11.0.13.0.PCMEUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.13.0.PCMEUXM/miui_PINEEEAGlobal_V11.0.13.0.PCMEUXM_6d2ee04dd4_9.0.zip">miui_PINEEEAGlobal_V11.0.13.0.PCMEUXM_6d2ee04dd4_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.13.0.PCMEUXM/pine_eea_global_images_V11.0.13.0.PCMEUXM_20191208.0000.00_9.0_eea_7c31ad6c99.tgz">pine_eea_global_images_V11.0.13.0.PCMEUXM_20191208.0000.00_9.0_eea_7c31ad6c99.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>V11.0.6.0.PCMEUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.6.0.PCMEUXM/miui_PINEEEAGlobal_V11.0.6.0.PCMEUXM_bcc90ca1df_9.0.zip">miui_PINEEEAGlobal_V11.0.6.0.PCMEUXM_bcc90ca1df_9.0.zip</a></td>
+                            <td><a href=" http://bigota.d.miui.com/V11.0.6.0.PCMEUXM/pine_eea_global_images_V11.0.6.0.PCMEUXM_20191025.0000.00_9.0_eea_a1181905e2.tgz">pine_eea_global_images_V11.0.6.0.PCMEUXM_20191025.0000.00_9.0_eea_a1181905e2.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>V11.0.2.0.PCMEUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.2.0.PCMEUXM/miui_PINEEEAGlobal_V11.0.2.0.PCMEUXM_1fdb054ccf_9.0.zip">miui_PINEEEAGlobal_V11.0.2.0.PCMEUXM_1fdb054ccf_9.0.zip</a></td>
+                            <td>未发布</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>V10.2.5.0.PCMEUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.5.0.PCMEUXM/miui_PINEEEAGlobal_V10.2.5.0.PCMEUXM_e25fa2a608_9.0.zip">miui_PINEEEAGlobal_V10.2.5.0.PCMEUXM_e25fa2a608_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.5.0.PCMEUXM/pine_eea_global_images_V10.2.5.0.PCMEUXM_20190801.0000.00_9.0_eea_45a622e29d.tgz">pine_eea_global_images_V10.2.5.0.PCMEUXM_20190801.0000.00_9.0_eea_45a622e29d.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>V10.2.4.0.PCMEUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMEUXM/miui_PINEEEAGlobal_V10.2.4.0.PCMEUXM_8b09990c4d_9.0.zip">miui_PINEEEAGlobal_V10.2.4.0.PCMEUXM_8b09990c4d_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMEUXM/pine_eea_global_images_V10.2.4.0.PCMEUXM_20190718.0000.00_9.0_eea_f3bee8866a.tgz">pine_eea_global_images_V10.2.4.0.PCMEUXM_20190718.0000.00_9.0_eea_f3bee8866a.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>V10.2.3.0.PCMEUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.3.0.PCMEUXM/miui_PINEEEAGlobal_V10.2.3.0.PCMEUXM_2f66f8d068_9.0.zip">miui_PINEEEAGlobal_V10.2.3.0.PCMEUXM_2f66f8d068_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.3.0.PCMEUXM/pine_eea_global_images_V10.2.3.0.PCMEUXM_20190701.0000.00_9.0_eea_7e1165efcd.tgz">pine_eea_global_images_V10.2.3.0.PCMEUXM_20190701.0000.00_9.0_eea_7e1165efcd.tgz</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <div id="RU_STABLE" class="mdui-p-a-2">
+        <div class="mdui-container-fluid">
+            <div class="mdui-table-fluid">
+                <table class="mdui-table">
+                    <thead>
+                        <tr>
+                            <th class="mdui-text-color-red">俄罗斯稳定版</th>
+                            <th>MIUI版本</th>
+                            <th>Android版本</th>
+                            <th>卡刷包</th>
+                            <th>线刷包</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="mdui-hidden">
+                            <td>10</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>9</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>8</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>7</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr class="mdui-hidden">
+                            <td>6</td>
+                            <td>TEXT_HERE</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                            <td><a href="TEXT_HERE">TEXT_HERE</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>V11.0.4.0.PCMRUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.4.0.PCMRUXM/miui_PINERUGlobal_V11.0.4.0.PCMRUXM_d38e77621c_9.0.zip">miui_PINERUGlobal_V11.0.4.0.PCMRUXM_d38e77621c_9.0.zip</a></td>
+                            <td><a href="ttp://bigota.d.miui.com/V11.0.4.0.PCMRUXM/pine_ru_global_images_V11.0.4.0.PCMRUXM_20191216.0000.00_9.0_global_87a1449c21.tgz">pine_ru_global_images_V11.0.4.0.PCMRUXM_20191216.0000.00_9.0_global_87a1449c21.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>V11.0.3.0.PCMRUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.3.0.PCMRUXM/miui_PINERUGlobal_V11.0.3.0.PCMRUXM_4e6825caa5_9.0.zip">miui_PINERUGlobal_V11.0.3.0.PCMRUXM_4e6825caa5_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V11.0.3.0.PCMRUXM/pine_ru_global_images_V11.0.3.0.PCMRUXM_20191026.0000.00_9.0_global_00a3ce107c.tgz">pine_ru_global_images_V11.0.3.0.PCMRUXM_20191026.0000.00_9.0_global_00a3ce107c.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>V10.2.4.0.PCMRUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMRUXM/miui_PINERUGlobal_V10.2.4.0.PCMRUXM_4dd352431f_9.0.zip">miui_PINERUGlobal_V10.2.4.0.PCMRUXM_4dd352431f_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.4.0.PCMRUXM/pine_ru_global_images_V10.2.4.0.PCMRUXM_20190809.0000.00_9.0_global_44ca415719.tgz">pine_ru_global_images_V10.2.4.0.PCMRUXM_20190809.0000.00_9.0_global_44ca415719.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>V10.2.3.0.PCMRUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.3.0.PCMRUXM/miui_PINERUGlobal_V10.2.3.0.PCMRUXM_2de7bfa7aa_9.0.zip">miui_PINERUGlobal_V10.2.3.0.PCMRUXM_2de7bfa7aa_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.3.0.PCMRUXM/pine_ru_global_images_V10.2.3.0.PCMRUXM_20190716.0000.00_9.0_global_bbb39e1632.tgz">pine_ru_global_images_V10.2.3.0.PCMRUXM_20190716.0000.00_9.0_global_bbb39e1632.tgz</a></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>V10.2.1.0.PCMRUXM</td>
+                            <td>9.0 Pie</td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.1.0.PCMRUXM/miui_PINERUGlobal_V10.2.1.0.PCMRUXM_15a4aa6783_9.0.zip">miui_PINERUGlobal_V10.2.1.0.PCMRUXM_15a4aa6783_9.0.zip</a></td>
+                            <td><a href="http://bigota.d.miui.com/V10.2.1.0.PCMRUXM/pine_ru_global_images_V10.2.1.0.PCMRUXM_20190617.0000.00_9.0_global_856cce0fc7.tgz">pine_ru_global_images_V10.2.1.0.PCMRUXM_20190617.0000.00_9.0_global_856cce0fc7.tgz</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 由此向下区域为底部Footer的内容 -->
+
+    <div class="mdui-hidden" style=" position:absolute; right:20px;bottom: 5px;">
+        <script
+            type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1278047585'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1278047585%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+    <button class=" mdui-btn mdui-btn-icon mdui-color-deep-orange-accent"
+        style="position: fixed; right: 20px;bottom: 40px;"><i class="mdui-icon material-icons"><a href="#top"
+                style="text-decoration: none;color:black;">arrow_upward</a></i>
+    </button>
+</body>
+
+</html>

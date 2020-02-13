@@ -1,12 +1,30 @@
+MIUI11 开发版：
+小米6X 20.1.2 卡刷包：https://bigota.d.miui.com/20.1.2/miui_MI6X_20.1.2_8c0caef03a_9.0.zip
+小米6X 20.1.2 线刷包：http://bigota.d.miui.com/20.1.2/wayne_images_20.1.2_20200102.0000.00_9.0_cn_062c10015b.tgz
+小米Play 20.1.2 卡刷包：https://bigota.d.miui.com/20.1.2/miui_MIPLAY_20.1.2_11d38ecb83_8.1.zip
+小米Play 20.1.2 线刷包：http://bigota.d.miui.com/20.1.2/lotus_images_20.1.2_20200102.0000.00_8.1_cn_9ee499219f.tgz
+红米手机6 20.1.2 卡刷包：https://bigota.d.miui.com/20.1.2/miui_HM6_20.1.2_2d008c78ec_9.0.zip
+红米手机6 20.1.2 线刷包：http://bigota.d.miui.com/20.1.2/cereus_images_20.1.2_20200102.0000.00_9.0_cn_3da8e6a188.tgz
+红米手机6A 20.1.2 卡刷包：https://bigota.d.miui.com/20.1.2/miui_HM6A_20.1.2_4bb9debbd8_9.0.zip
+红米手机6A 20.1.2 线刷包：http://bigota.d.miui.com/20.1.2/cactus_images_20.1.2_20200102.0000.00_9.0_cn_2a359fed81.tgz
+红米手机6Pro 20.1.2 卡刷包：https://bigota.d.miui.com/20.1.2/miui_HM6Pro_20.1.2_c86b162ce5_9.0.zip
+红米手机6Pro 20.1.2 线刷包：http://bigota.d.miui.com/20.1.2/sakura_images_20.1.2_20200102.0000.00_9.0_cn_82438fd05d.tgz
+红米Note5  20.1.2 卡刷包：https://bigota.d.miui.com/20.1.2/miui_HMNote5_20.1.2_ef99f1e4a9_9.0.zip
+红米Note5  20.1.2 线刷包：http://bigota.d.miui.com/20.1.2/whyred_images_20.1.2_20200102.0000.00_9.0_cn_27825d275b.tgz
+
+
 国内稳定版：
 
 
 国际稳定版：
+小米MIX3 5G版 欧洲EEA版 卡刷包：http://bigota.d.miui.com/V10.3.23.0.PEMEUXM/miui_ANDROMEDAEEAGlobal_V10.3.23.0.PEMEUXM_450081beda_9.0.zip
+小米MIX3 5G版 欧洲EEA版 线刷包：http://bigota.d.miui.com/V10.3.23.0.PEMEUXM/andromeda_eea_global_images_V10.3.23.0.PEMEUXM_20200113.0000.00_9.0_eea_caae3111ca.tgz
 
-
-
-
-
+Redmi 8 国际版 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PCNMIXM/olive_global_images_V11.0.6.0.PCNMIXM_20200119.0000.00_9.0_global_5661b6ab44.tgz
+Redmi Note8 Pro 国际版　V11.0.6.0.PGGMIXM 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PGGMIXM/miui_BEGONIAGlobal_V11.0.6.0.PGGMIXM_41b14febb2_9.0.zip
+Redmi Note8 Pro 国际版　V11.0.6.0.PGGMIXM 线刷包：http://bigota.d.miui.com/V11.0.6.0.PGGMIXM/begonia_global_images_V11.0.6.0.PGGMIXM_20200108.0000.00_9.0_global_4d6344e94f.tgz
+Redmi Note8 Pro 俄罗斯版　V11.0.3.0.PGGRUXM 卡刷包：http://bigota.d.miui.com/V11.0.3.0.PGGRUXM/miui_BEGONIARUGlobal_V11.0.3.0.PGGRUXM_438cd924e8_9.0.zip
+Redmi Note8 Pro 俄罗斯版　V11.0.3.0.PGGRUXM 线刷包：http://bigota.d.miui.com/V11.0.3.0.PGGRUXM/begonia_ru_global_images_V11.0.3.0.PGGRUXM_20191210.0000.00_9.0_global_c59d28cbf4.tgz
 
 
 Redmi Note8 卡刷包：

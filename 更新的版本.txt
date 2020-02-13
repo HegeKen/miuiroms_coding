@@ -14,17 +14,20 @@ MIUI11 开发版：
 
 
 国内稳定版：
-
+小米10 V11.0.5.0.QJBCNXM 卡刷包：http://bigota.d.miui.com/V11.0.5.0.QJBCNXM/miui_UMI_V11.0.5.0.QJBCNXM_cb37e58eaf_10.0.zip
+小米10 V11.0.5.0.QJBCNXM 线刷包：http://bigota.d.miui.com/V11.0.5.0.QJBCNXM/umi_images_V11.0.5.0.QJBCNXM_20200116.0000.00_10.0_cn_2b4a57e634.tgz
+小米10 Pro V11.0.2.0.QJACNXM 卡刷包：http://bigota.d.miui.com/V11.0.2.0.QJACNXM/miui_CMI_V11.0.2.0.QJACNXM_a0d57985c6_10.0.zip
+小米10 Pro V11.0.2.0.QJACNXM 线刷包：http://bigota.d.miui.com/V11.0.2.0.QJACNXM/cmi_images_V11.0.2.0.QJACNXM_20200117.0000.00_10.0_cn_1f1bf44944.tgz
 
 国际稳定版：
-小米MIX3 5G版 欧洲EEA版 卡刷包：http://bigota.d.miui.com/V10.3.23.0.PEMEUXM/miui_ANDROMEDAEEAGlobal_V10.3.23.0.PEMEUXM_450081beda_9.0.zip
-小米MIX3 5G版 欧洲EEA版 线刷包：http://bigota.d.miui.com/V10.3.23.0.PEMEUXM/andromeda_eea_global_images_V10.3.23.0.PEMEUXM_20200113.0000.00_9.0_eea_caae3111ca.tgz
-
-Redmi 8 国际版 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PCNMIXM/olive_global_images_V11.0.6.0.PCNMIXM_20200119.0000.00_9.0_global_5661b6ab44.tgz
-Redmi Note8 Pro 国际版　V11.0.6.0.PGGMIXM 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PGGMIXM/miui_BEGONIAGlobal_V11.0.6.0.PGGMIXM_41b14febb2_9.0.zip
-Redmi Note8 Pro 国际版　V11.0.6.0.PGGMIXM 线刷包：http://bigota.d.miui.com/V11.0.6.0.PGGMIXM/begonia_global_images_V11.0.6.0.PGGMIXM_20200108.0000.00_9.0_global_4d6344e94f.tgz
-Redmi Note8 Pro 俄罗斯版　V11.0.3.0.PGGRUXM 卡刷包：http://bigota.d.miui.com/V11.0.3.0.PGGRUXM/miui_BEGONIARUGlobal_V11.0.3.0.PGGRUXM_438cd924e8_9.0.zip
-Redmi Note8 Pro 俄罗斯版　V11.0.3.0.PGGRUXM 线刷包：http://bigota.d.miui.com/V11.0.3.0.PGGRUXM/begonia_ru_global_images_V11.0.3.0.PGGRUXM_20191210.0000.00_9.0_global_c59d28cbf4.tgz
+小米MIX3 5G版 欧洲EEA版 V10.3.23.0.PEMEUXM 卡刷包：http://bigota.d.miui.com/V10.3.23.0.PEMEUXM/miui_ANDROMEDAEEAGlobal_V10.3.23.0.PEMEUXM_450081beda_9.0.zip
+小米MIX3 5G版 欧洲EEA版 V10.3.23.0.PEMEUXM 线刷包：http://bigota.d.miui.com/V10.3.23.0.PEMEUXM/andromeda_eea_global_images_V10.3.23.0.PEMEUXM_20200113.0000.00_9.0_eea_caae3111ca.tgz
+Redmi 8 国际版 V11.0.6.0.PCNMIXM 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PCNMIXM/miui_OLIVEGlobal_V11.0.6.0.PCNMIXM_e905bad490_9.0.zip
+Redmi 8 国际版 V11.0.6.0.PCNMIXM 线刷包：http://bigota.d.miui.com/V11.0.6.0.PCNMIXM/olive_global_images_V11.0.6.0.PCNMIXM_20200119.0000.00_9.0_global_5661b6ab44.tgz
+Redmi Note8 Pro 国际版 V11.0.6.0.PGGMIXM 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PGGMIXM/miui_BEGONIAGlobal_V11.0.6.0.PGGMIXM_41b14febb2_9.0.zip
+Redmi Note8 Pro 国际版 V11.0.6.0.PGGMIXM 线刷包：http://bigota.d.miui.com/V11.0.6.0.PGGMIXM/begonia_global_images_V11.0.6.0.PGGMIXM_20200108.0000.00_9.0_global_4d6344e94f.tgz
+Redmi Note8 Pro 俄罗斯版 V11.0.3.0.PGGRUXM 卡刷包：http://bigota.d.miui.com/V11.0.3.0.PGGRUXM/miui_BEGONIARUGlobal_V11.0.3.0.PGGRUXM_438cd924e8_9.0.zip
+Redmi Note8 Pro 俄罗斯版 V11.0.3.0.PGGRUXM 线刷包：http://bigota.d.miui.com/V11.0.3.0.PGGRUXM/begonia_ru_global_images_V11.0.3.0.PGGRUXM_20191210.0000.00_9.0_global_c59d28cbf4.tgz
 
 
 Redmi Note8 卡刷包：

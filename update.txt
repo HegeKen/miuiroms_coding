@@ -1,13 +1,9 @@
 国内稳定版：
-小米CC9e V11.0.4.0.PFMCNXM 卡刷包：http://bigota.d.miui.com/V11.0.4.0.PFMCNXM/miui_LAURUS_V11.0.4.0.PFMCNXM_606fd6ecac_9.0.zip
-小米CC9e V11.0.4.0.PFMCNXM 线刷包：http://bigota.d.miui.com/V11.0.4.0.PFMCNXM/laurus_images_V11.0.4.0.PFMCNXM_20200114.0000.00_9.0_cn_4647dfd07f.tgz
+Redmi K30 5G版 V11.0.9.0.QGICNXM 卡刷包：http://bigota.d.miui.com/V11.0.9.0.QGICNXM/miui_PICASSO_V11.0.9.0.QGICNXM_02768d0fa6_10.0.zip
+Redmi K30 5G版 V11.0.11.0.QGICNXM 卡刷包：http://bigota.d.miui.com/V11.0.11.0.QGICNXM/miui_PICASSO_V11.0.11.0.QGICNXM_65ec88895f_10.0.zip
+Redmi K30 5G版 V11.0.11.0.QGICNXM 线刷包：http://bigota.d.miui.com/V11.0.11.0.QGICNXM/picasso_images_V11.0.11.0.QGICNXM_20200216.0000.00_10.0_cn_47f74b1cf6.tgz
 
 
 国际稳定版：
-小米POCOPHONE F1 国际版 V11.0.4.0.QEJMIXM 卡刷包：http://bigota.d.miui.com/V11.0.4.0.QEJMIXM/miui_POCOF1Global_V11.0.4.0.QEJMIXM_74f88e6c8f_10.0.zip
-小米POCOPHONE F1 国际版 V11.0.4.0.QEJMIXM 线刷包：http://bigota.d.miui.com/V11.0.4.0.QEJMIXM/beryllium_global_images_V11.0.4.0.QEJMIXM_20200118.0000.00_10.0_global_39f9f635af.tgz
-Redmi Note8 国际版 V11.0.6.0.PCOMIXM 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PCOMIXM/miui_GINKGOGlobal_V11.0.6.0.PCOMIXM_a27054eb8f_9.0.zip
-Redmi Note8 国际版 V11.0.6.0.PCOMIXM 线刷包：http://bigota.d.miui.com/V11.0.6.0.PCOMIXM/ginkgo_global_images_V11.0.6.0.PCOMIXM_20200121.0000.00_9.0_global_f664db36a1.tgz
-
-Redmi Note8 卡刷包：
-Redmi Note8 线刷包：
+小米POCOPHONE X2(Redmi K30 4G版) 印度版 V11.0.4.0.QGHINXM 卡刷包：http://bigota.d.miui.com/V11.0.4.0.QGHINXM/miui_PHOENIXININGlobal_V11.0.4.0.QGHINXM_fad80cd58f_10.0.zip
+小米POCOPHONE X2(Redmi K30 4G版) 印度版 V11.0.4.0.QGHINXM 线刷包：http://bigota.d.miui.com/V11.0.4.0.QGHINXM/phoenixin_in_global_images_V11.0.4.0.QGHINXM_20200122.0000.00_10.0_in_ddd940643c.tgz

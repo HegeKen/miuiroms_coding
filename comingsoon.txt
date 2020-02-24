@@ -8,14 +8,12 @@
 小米CC9 美图定制版 卡刷包：http://bigota.d.miui.com/V11.3.3.0.PFECNXM/miui_VELA_V11.3.3.0.PFECNXM_562be16b81_9.0.zip
 小米10 卡刷包：http://bigota.d.miui.com/V11.0.9.0.QJBCNXM/miui_UMI_V11.0.9.0.QJBCNXM_27efd6a834_10.0.zip
 小米10 Pro 卡刷包：http://bigota.d.miui.com/V11.0.7.0.QJACNXM/miui_CMI_V11.0.7.0.QJACNXM_460785452c_10.0.zip
-
 Redmi Note 8 卡刷包：http://bigota.d.miui.com/V11.0.5.0.PCOCNXM/miui_GINKGO_V11.0.5.0.PCOCNXM_01cc753a51_9.0.zip
 Redmi K20 卡刷包：http://bigota.d.miui.com/V11.0.2.0.QFJCNXM/miui_DAVINCI_V11.0.2.0.QFJCNXM_f6f375d6c4_10.0.zip
+Redmi K20 卡刷包：http://bigota.d.miui.com/V11.0.4.0.QFJCNXM/miui_DAVINCI_V11.0.4.0.QFJCNXM_1bc454c300_10.0.zip
 Redmi K30 4G版 卡刷包：http://bigota.d.miui.com/V11.0.10.0.QGHCNXM/miui_PHOENIX_V11.0.10.0.QGHCNXM_2e488a8637_10.0.zip
 Redmi K30 4G版 卡刷包：http://bigota.d.miui.com/V11.0.13.0.QGHCNXM/miui_PHOENIX_V11.0.13.0.QGHCNXM_a4b9759884_10.0.zip
-Redmi K30 5G版 卡刷包：http://bigota.d.miui.com/V11.0.9.0.QGICNXM/miui_PICASSO_V11.0.9.0.QGICNXM_02768d0fa6_10.0.zip
-Redmi K30 5G版 卡刷包：http://bigota.d.miui.com/V11.0.11.0.QGICNXM/miui_PICASSO_V11.0.11.0.QGICNXM_65ec88895f_10.0.zip
-Redmi K30 5G版 线刷包：http://bigota.d.miui.com/V11.0.11.0.QGICNXM/picasso_images_V11.0.11.0.QGICNXM_20200216.0000.00_10.0_cn_47f74b1cf6.tgz
+
 
 国际稳定版：
 小米8 国际版 卡刷包：http://bigota.d.miui.com/V11.0.3.0.QEAMIXM/miui_MI8Global_V11.0.3.0.QEAMIXM_785bed5822_10.0.zip
@@ -24,10 +22,6 @@ Redmi K30 5G版 线刷包：http://bigota.d.miui.com/V11.0.11.0.QGICNXM/picasso_
 小米9 欧洲EEA版 卡刷包：http://bigota.d.miui.com/V11.0.7.0.QFAEUXM/miui_CEPHEUSEEAGlobal_V11.0.7.0.QFAEUXM_c540795d64_10.0.zip
 小米CC9 Pro 欧洲EEA版 卡刷包：http://bigota.d.miui.com/V11.0.12.0.PFDEUXM/miui_TUCANAEEAGlobal_V11.0.12.0.PFDEUXM_666261a8b0_9.0.zip
 小米CC9 Pro 欧洲EEA版 卡刷包：http://bigota.d.miui.com/V11.0.13.0.PFDEUXM/miui_TUCANAEEAGlobal_V11.0.13.0.PFDEUXM_61518caa02_9.0.zip
-
-
-小米POCOPHONE X2 印度版　卡刷包：http://bigota.d.miui.com/V11.0.4.0.QGHINXM/miui_PHOENIXININGlobal_V11.0.4.0.QGHINXM_fad80cd58f_10.0.zip
-小米POCOPHONE X2 印度版　线刷包：http://bigota.d.miui.com/V11.0.4.0.QGHINXM/phoenixin_in_global_images_V11.0.4.0.QGHINXM_20200122.0000.00_10.0_in_ddd940643c.tgz
 Redmi 7A 国际版 卡刷包：http://bigota.d.miui.com/V11.0.6.0.PCMMIXM/miui_PINEGlobal_V11.0.6.0.PCMMIXM_3dbb87d63c_9.0.zip
 Redmi 7A 欧洲EEA版 卡刷包：http://bigota.d.miui.com/V11.0.14.0.PCMEUXM/miui_PINEEEAGlobal_V11.0.14.0.PCMEUXM_1d2d60ed95_9.0.zip
 Redmi 8 印度版 卡刷包：http://bigota.d.miui.com/V11.0.7.0.PCNINXM/miui_OLIVEINGlobal_V11.0.7.0.PCNINXM_3950d69d15_9.0.zip
